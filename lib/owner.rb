@@ -5,6 +5,7 @@ class Owner
 
   def initilize(name)
     @name = name
+  end
 
 
 
