@@ -4,9 +4,10 @@ class Owner
   @@all = []
   @@owner_count = 0
 
-  def initilize(owner)
-    binding.pry
-    
+  def initialize(owner)
+    @owner = owner
+    @@all << owner
+    @@owner_count += 1
   end
 
 end
