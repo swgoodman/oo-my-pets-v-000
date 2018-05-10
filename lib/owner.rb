@@ -63,10 +63,10 @@ class Owner
     @pets[:fishes].each do |fish|
       fish.mood = "happy"
     end
-  end 
+  end
 
   def sell_pets
-    @pets.each{ |type,pet| pet.each.mood.replace "nervous" }
+    @pets.each{ |type,pet| mood.replace "nervous" }
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
