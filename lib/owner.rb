@@ -26,7 +26,6 @@ class Owner
   end
 
   def species
-    self.species
   end
 
 
