@@ -10,11 +10,14 @@ class Owner
     @owner = owner
     @@all << self
     @@owner_count += 1
-
   end
 
   def self.all
     @@all
+  end
+
+  def self.reset_all
+    @@owner_count = 0
   end
 
 end
