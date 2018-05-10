@@ -24,4 +24,6 @@ class Owner
     @@owner_count = 0
   end
 
+  
+
 end
