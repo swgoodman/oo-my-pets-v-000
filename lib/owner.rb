@@ -10,7 +10,7 @@ class Owner
     @owner = owner
     @@all << owner
     @@owner_count += 1
-    binding.pry
+    @@all
   end
 
   def self.all
