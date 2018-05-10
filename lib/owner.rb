@@ -8,6 +8,10 @@ class Owner
     @@all << name
   end
 
+  def all
+    @@all
+  end
+
 
 
 
