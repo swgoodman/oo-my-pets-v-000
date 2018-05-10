@@ -66,11 +66,7 @@ class Owner
   end
 
   def sell_pets
-    @pets.each do |pet|
-      pet.mood = "nervous"
-    end
-
-    @pets = {fishes: [], cats: [], dogs: []}
+    @pets.update(hash) { |key, value| value.mood = "nervous" }
   end
 
 end
