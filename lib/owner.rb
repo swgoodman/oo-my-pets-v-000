@@ -10,4 +10,8 @@ class Owner
     @@owner_count += 1
   end
 
+  def self.all
+    @@all
+  end
+
 end
