@@ -30,8 +30,8 @@ class Owner
     "I am a #{self.species}."
   end
 
-  def name(name)
-    @name = name
+  def name
+    @name
   end
 
 
