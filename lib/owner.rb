@@ -15,6 +15,6 @@ class Owner
   end
 
   def reset_all
-    @@all = []
+    @@owner_count = 0
   end
 end
