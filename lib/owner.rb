@@ -36,7 +36,8 @@ class Owner
   end
 
   def buy_fish(name)
-    @fish = Fish.new(name)
+    hello = Fish.new(name)
+    binding.pry
   end
 
 end
