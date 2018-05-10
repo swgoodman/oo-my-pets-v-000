@@ -1,9 +1,10 @@
 class Owner
+  attr_accessor :name
+
   @@all = []
 
-  def self.all
-    @@all
-  end
+  def initilize(name)
+    @name = name
 
 
 
