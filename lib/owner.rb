@@ -1,9 +1,9 @@
 class Owner
   @@all = []
 
-  def all
+  def self.all
     @@all
-    en
+  end
 
 
 
