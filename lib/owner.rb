@@ -12,6 +12,7 @@ class Owner
     @@all << self
     @@owner_count += 1
     @species = "human"
+    @pets = {fishes: [], cats: [], dogs: []}
   end
 
   def self.all
