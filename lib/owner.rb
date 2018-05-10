@@ -14,7 +14,7 @@ class Owner
     @@all
   end
 
-  def self.reset_all
+  def reset_all
     @@all = []
   end
 
