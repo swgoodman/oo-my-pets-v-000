@@ -66,7 +66,7 @@ class Owner
   end
 
   def sell_pets
-    hash.update(@pets) { |key, value| key.mood = "nervous" }
+    @pets.update(@pets) { |key, value| key.mood = "nervous" }
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
