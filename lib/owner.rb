@@ -9,4 +9,5 @@ class Owner
     @@all << owner
     @@owner_count += 1
   end
+  binding.pry
 end
