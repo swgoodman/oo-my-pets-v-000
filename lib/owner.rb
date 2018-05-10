@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   attr_accessor :pets, :owner
 
@@ -12,6 +14,7 @@ class Owner
 
   def self.all
     @@all
+    binding.pry
   end
 
 end
