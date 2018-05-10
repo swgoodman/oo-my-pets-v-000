@@ -17,8 +17,4 @@ class Owner
   def reset_all
     @@all = []
   end
-
-
-
-
 end
